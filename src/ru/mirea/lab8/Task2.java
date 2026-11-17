@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class Task2 {
     // выводит числа от 1 до n
     public static void printUpTo(int n) {
-        if (n == 0) {          // базовый случай: печатать нечего
+        if (n == 0) {
             return;
         }
-        printUpTo(n - 1);      // сначала выводим числа от 1 до n-1
+        printUpTo(n - 1);
         System.out.print(n + " ");
     }
 
